@@ -13,7 +13,7 @@
 | NOOL Layer | Expected (v0.1) | Actual | Drift |
 |------------|-----------------|--------|-------|
 | **Intent (WHY)** | OSS toolkit operationalising STEAL methodology. The "Body layer" of the 3-layer franchise (STEAL Gracefully → Let's STEAL → steal-kit). Gateway drug, zero prior knowledge required. | Still true at the strategic level, but the kit's *operational identity* has shifted. steal-kit is not just a future CLI toolkit; it is already the invisible engine behind `/steal` workflow runs. The methodology is proven at scale (6+ captures in 48 hours), but the tooling (CLI, templates) hasn't caught up with the methodology's velocity. | Drifted (methodology outpaced tooling) |
-| **Abstraction (WHAT TYPE)** | DESIGN: OSS learning toolkit bundling methodology, content (book), templates, and CLI. | Still DESIGN, but the ratio has shifted. The NOOL assumed methodology and book would be the primary assets, with CLI second. In practice, the workflow (`/steal` v3.0) and batch signal infrastructure (`research_indexer.py`, `steal_queue.py`) are the primary operational assets. The book and CLI remain unbuilt. | Drifted (operational gravity shifted from book to workflow) |
+| **Abstraction (WHAT TYPE)** | DESIGN: OSS learning toolkit bundling methodology, content (book), templates, and CLI. | Still DESIGN, but the ratio has shifted. The NOOL assumed methodology and book would be the primary assets, with CLI second. In practice, the workflow (`/steal` v3.0) and batch signal infrastructure (`research_indexer.py`, `steal_queue.py`) are the primary operational assets. The book and CLI remain unbuilt. The real progression is: **Workflow → Skill → CLI**. The skill layer (`.agent/skills/steal-kit/SKILL.md`) is the missing middle: a distributable, public-facing asset that codifies the methodology for anyone's agent, not just ours. Skills are the new shareware. | Drifted (operational gravity shifted from book to workflow; skill layer identified as missing middle) |
 
 ### Chain Audit (Did the HOW work?)
 
@@ -31,15 +31,16 @@
 
 | Signal | Source | Impact |
 |--------|--------|--------|
-| `/steal` workflow became the de facto product | 6+ captures in 48 hours | The workflow IS the kit, operationally. Users (Naveen) interact with STEAL through `/steal`, not through a CLI binary. This reframes the kit's MVP: workflow-first, CLI-second. |
+| `/steal` workflow became the de facto product | 6+ captures in 48 hours | The workflow IS the kit, operationally. Users (Naveen) interact with STEAL through `/steal`, not through a CLI binary. This reframes the kit's MVP progression: **Workflow → Skill → CLI**. The skill is the distributable middle layer, a public-facing asset anyone can drop into their agent. Skills are the new shareware. |
 | Batch signal generation at scale | `research_indexer.py` + batch commit | 100+ signals.md files updated in a single session. The indexer is production infrastructure, not a utility script. |
 | STEAL Queue persistence | `steal-queue.json` | Execution plans survive across conversations. This is proto-session-state, a pattern that validates ARANGAM's "Implicit Session State" architecture. |
+| Skill as public distribution format | Agent ecosystem evolution | Everyone needs skills now. The `.agent/skills/` format is not just internal tooling, it is a distribution mechanism. A steal-kit SKILL.md that anyone can install into their agent is a more accessible entry point than a CLI binary or an npm package. |
 | 7 research types exercised in 2 days | Multiple STEAL captures | Concepts, frameworks, and methodologies all processed. The 13-category classification system works without misroutes. |
 | Batch commits as evidence of scale | Git history | The commit messages ("STEAL: [Topic], [N]-report synthesis, [N] signals") are themselves a signal of the protocol's maturity. |
 
 ### The Knot 🪢
 
-> *[HUMAN WRITES THIS: What's the one thing you now know that you didn't before?]*
+> *The skill layer is the missing middle. Workflow → Skill → CLI.*
 
 ### Status
 

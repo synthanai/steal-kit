@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400">
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; }
+    .title { font-size: 15px; font-weight: bold; fill: #333; }
+    .subtitle { font-size: 11px; fill: #777; font-style: italic; }
+    .header { font-size: 13px; font-weight: bold; }
+    .body { font-size: 11px; fill: #333; }
+    .label { font-size: 10px; fill: #555; }
+    .small { font-size: 9px; fill: #777; }
+    .letter { font-size: 18px; font-weight: bold; }
+  </style>
+
+  <!-- Background -->
+  <rect width="900" height="400" fill="white" rx="5"/>
+
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" class="title">STEAL: Scan, Translate, Evaluate, Abstract, Leverage</text>
+  <text x="450" y="48" text-anchor="middle" class="subtitle">Intelligence capture protocol: from external knowledge to ecosystem action</text>
+
+  <!-- S: Scan -->
+  <rect x="30" y="75" width="145" height="130" rx="10" fill="#ECEFF1" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="103" y="98" text-anchor="middle" class="letter" fill="#37474F">S</text>
+  <text x="103" y="115" text-anchor="middle" class="header" fill="#37474F">Scan</text>
+  <text x="103" y="133" text-anchor="middle" class="body">Classify topic</text>
+  <rect x="42" y="142" width="120" height="16" rx="5" fill="white" stroke="#546E7A" stroke-width="1"/>
+  <text x="103" y="154" text-anchor="middle" class="small">13 category types</text>
+  <rect x="42" y="162" width="120" height="16" rx="5" fill="white" stroke="#546E7A" stroke-width="1"/>
+  <text x="103" y="174" text-anchor="middle" class="small">Auto-route to specialist</text>
+  <rect x="42" y="182" width="120" height="16" rx="5" fill="white" stroke="#546E7A" stroke-width="1"/>
+  <text x="103" y="194" text-anchor="middle" class="small">Org, Concept, Theory...</text>
+
+  <!-- Arrow -->
+  <line x1="175" y1="140" x2="200" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- T: Translate -->
+  <rect x="200" y="75" width="145" height="130" rx="10" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.5"/>
+  <text x="273" y="98" text-anchor="middle" class="letter" fill="#1565C0">T</text>
+  <text x="273" y="115" text-anchor="middle" class="header" fill="#1565C0">Translate</text>
+  <text x="273" y="133" text-anchor="middle" class="body">Execute specialist</text>
+  <rect x="212" y="142" width="120" height="16" rx="5" fill="white" stroke="#2196F3" stroke-width="1"/>
+  <text x="273" y="154" text-anchor="middle" class="small">Deep-dive workflow</text>
+  <rect x="212" y="162" width="120" height="16" rx="5" fill="white" stroke="#2196F3" stroke-width="1"/>
+  <text x="273" y="174" text-anchor="middle" class="small">SYNTHAI lens (MBS)</text>
+  <rect x="212" y="182" width="120" height="16" rx="5" fill="white" stroke="#2196F3" stroke-width="1"/>
+  <text x="273" y="194" text-anchor="middle" class="small">→ research.md</text>
+
+  <!-- Arrow -->
+  <line x1="345" y1="140" x2="370" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- E: Evaluate -->
+  <rect x="370" y="75" width="145" height="130" rx="10" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5"/>
+  <text x="443" y="98" text-anchor="middle" class="letter" fill="#2E7D32">E</text>
+  <text x="443" y="115" text-anchor="middle" class="header" fill="#2E7D32">Evaluate</text>
+  <text x="443" y="133" text-anchor="middle" class="body">Validate quality</text>
+  <rect x="382" y="142" width="120" height="16" rx="5" fill="white" stroke="#4CAF50" stroke-width="1"/>
+  <text x="443" y="154" text-anchor="middle" class="small">Schema compliance</text>
+  <rect x="382" y="162" width="120" height="16" rx="5" fill="white" stroke="#4CAF50" stroke-width="1"/>
+  <text x="443" y="174" text-anchor="middle" class="small">Source coverage</text>
+  <rect x="382" y="182" width="120" height="16" rx="5" fill="white" stroke="#4CAF50" stroke-width="1"/>
+  <text x="443" y="194" text-anchor="middle" class="small">PASS / WARNINGS</text>
+
+  <!-- Arrow -->
+  <line x1="515" y1="140" x2="540" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- A: Abstract -->
+  <rect x="540" y="75" width="145" height="130" rx="10" fill="#FFF8E1" stroke="#F57F17" stroke-width="1.5"/>
+  <text x="613" y="98" text-anchor="middle" class="letter" fill="#E65100">A</text>
+  <text x="613" y="115" text-anchor="middle" class="header" fill="#E65100">Abstract</text>
+  <text x="613" y="133" text-anchor="middle" class="body">Extract signals</text>
+  <rect x="552" y="142" width="120" height="16" rx="5" fill="white" stroke="#F57F17" stroke-width="1"/>
+  <text x="613" y="154" text-anchor="middle" class="small">NOOL thread</text>
+  <rect x="552" y="162" width="120" height="16" rx="5" fill="white" stroke="#F57F17" stroke-width="1"/>
+  <text x="613" y="174" text-anchor="middle" class="small">Actions + Rejections</text>
+  <rect x="552" y="182" width="120" height="16" rx="5" fill="white" stroke="#F57F17" stroke-width="1"/>
+  <text x="613" y="194" text-anchor="middle" class="small">→ signals.md</text>
+
+  <!-- Arrow -->
+  <line x1="685" y1="140" x2="710" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- L: Leverage -->
+  <rect x="710" y="75" width="145" height="130" rx="10" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1.5"/>
+  <text x="783" y="98" text-anchor="middle" class="letter" fill="#283593">L</text>
+  <text x="783" y="115" text-anchor="middle" class="header" fill="#283593">Leverage</text>
+  <text x="783" y="133" text-anchor="middle" class="body">Route to ecosystem</text>
+  <rect x="722" y="142" width="120" height="16" rx="5" fill="white" stroke="#3F51B5" stroke-width="1"/>
+  <text x="783" y="154" text-anchor="middle" class="small">Index update</text>
+  <rect x="722" y="162" width="120" height="16" rx="5" fill="white" stroke="#3F51B5" stroke-width="1"/>
+  <text x="783" y="174" text-anchor="middle" class="small">NOOL cross-refs</text>
+  <rect x="722" y="182" width="120" height="16" rx="5" fill="white" stroke="#3F51B5" stroke-width="1"/>
+  <text x="783" y="194" text-anchor="middle" class="small">Backlog routing</text>
+
+  <!-- Output badges -->
+  <rect x="120" y="240" width="130" height="35" rx="12" fill="#FFEBEE" stroke="#F44336" stroke-width="1"/>
+  <text x="185" y="258" text-anchor="middle" class="label" fill="#C62828">❌ Rejections</text>
+  <text x="185" y="270" text-anchor="middle" class="small">What we DON'T adopt</text>
+
+  <rect x="280" y="240" width="130" height="35" rx="12" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+  <text x="345" y="258" text-anchor="middle" class="label" fill="#2E7D32">✅ Agreements</text>
+  <text x="345" y="270" text-anchor="middle" class="small">What validates SYNTHAI</text>
+
+  <rect x="440" y="240" width="130" height="35" rx="12" fill="#FFF3E0" stroke="#FF9800" stroke-width="1"/>
+  <text x="505" y="258" text-anchor="middle" class="label" fill="#E65100">⚡ Clashes</text>
+  <text x="505" y="270" text-anchor="middle" class="small">Tensions to resolve</text>
+
+  <rect x="600" y="240" width="130" height="35" rx="12" fill="#E3F2FD" stroke="#2196F3" stroke-width="1"/>
+  <text x="665" y="258" text-anchor="middle" class="label" fill="#1565C0">📋 Backlogs</text>
+  <text x="665" y="270" text-anchor="middle" class="small">Routed to target kits</text>
+
+  <!-- Dashed lines from Abstract to output badges -->
+  <line x1="613" y1="205" x2="185" y2="240" stroke="#F44336" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="613" y1="205" x2="345" y2="240" stroke="#4CAF50" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="613" y1="205" x2="505" y2="240" stroke="#FF9800" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="783" y1="205" x2="665" y2="240" stroke="#2196F3" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Legend -->
+  <rect x="30" y="310" width="840" height="70" rx="8" fill="#F5F5F5" stroke="#546E7A" stroke-width="1"/>
+  <text x="50" y="330" class="label">Legend:</text>
+  <rect x="100" y="320" width="14" height="14" rx="3" fill="#ECEFF1" stroke="#546E7A" stroke-width="1"/>
+  <text x="120" y="332" class="small">Scan (classify)</text>
+  <rect x="200" y="320" width="14" height="14" rx="3" fill="#E3F2FD" stroke="#2196F3" stroke-width="1"/>
+  <text x="220" y="332" class="small">Translate (research)</text>
+  <rect x="320" y="320" width="14" height="14" rx="3" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+  <text x="340" y="332" class="small">Evaluate (validate)</text>
+  <rect x="440" y="320" width="14" height="14" rx="3" fill="#FFF8E1" stroke="#F57F17" stroke-width="1"/>
+  <text x="460" y="332" class="small">Abstract (signals)</text>
+  <rect x="560" y="320" width="14" height="14" rx="3" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="580" y="332" class="small">Leverage (action)</text>
+  <text x="50" y="355" class="small">Flow: External knowledge → Classify → Deep-dive specialist research → Validate quality → Extract signals (NOOL + Actions + Rejections) → Route to ecosystem backlogs</text>
+  <text x="50" y="367" class="small">"Steal like a system thinker": scan the landscape, translate through your purpose, evaluate with rigor, abstract the principle, leverage for action</text>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+</svg>
