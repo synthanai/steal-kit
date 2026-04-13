@@ -184,12 +184,12 @@ The book and toolkit are designed for every surface:
 
 ```
 SYNTHAI Methodology Ecosystem
-├── SPAR-KIT   — Decisions     (Let's SPAR  → Disagree to Agree)
-├── KURAL-KIT  — Literature    (VOW         → Voice of Wisdom)
-├── RAMP-KIT   — Validation    (Let's RAMP  → Assure)
-├── STEAL-KIT  — Learning      (Let's STEAL → Copy Nothing, Learn Everything)  ← THIS
-├── DMG-KIT    — Governance    (DMS         → Decision Moments)
-└── VAULT-KIT  — Privacy       (VAULT       → Verified Auditable Traceable)
+├── SPAR-KIT, Decisions     (Let's SPAR  → Disagree to Agree)
+├── KURAL-KIT, Literature    (VOW         → Voice of Wisdom)
+├── RAMP-KIT, Validation    (Let's RAMP  → Assure)
+├── STEAL-KIT, Learning      (Let's STEAL → Copy Nothing, Learn Everything)  ← THIS
+├── DMG-KIT, Governance    (DMS         → Decision Moments)
+└── VAULT-KIT, Privacy       (VAULT       → Verified Auditable Traceable)
 ```
 
 STEAL-KIT is the **Learning pillar**: it teaches the individual how to acquire external knowledge. Where SPAR teaches how to *argue*, STEAL teaches how to *learn*. They are complementary: you STEAL the knowledge, then you SPAR the decision.
