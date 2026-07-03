@@ -1,4 +1,4 @@
-# நூல் / NOOL — steal-kit
+# நூல் / NOOL  -  steal-kit
 
 > *The Reasoning Thread: a record of INTENT (why), ABSTRACTION (what type), and CHAIN (how).*
 

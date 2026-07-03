@@ -1,4 +1,4 @@
-# Mirror / LOON — Module: steal-kit/methodology
+# Mirror / LOON  -  Module: steal-kit/methodology
 
 ## Entry: 2026-04-13
 

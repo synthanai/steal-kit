@@ -53,10 +53,10 @@ By forcing translation before filing, evaluation before acceptance, and abstract
 **Steal** (verb): To take something valuable and make it your own.
 
 In creative and intellectual traditions, stealing is:
-- **Honorable** — "Good artists copy, great artists steal" (attributed to Picasso)
-- **Transformative** — You don't take the thing, you take the principle behind it
-- **Generative** — The stolen idea becomes something new in your hands
-- **Universal** — Every great thinker built on the work of others
+- **Honorable**  -  "Good artists copy, great artists steal" (attributed to Picasso)
+- **Transformative**  -  You don't take the thing, you take the principle behind it
+- **Generative**  -  The stolen idea becomes something new in your hands
+- **Universal**  -  Every great thinker built on the work of others
 
 We reclaim "steal" from its negative connotation. In STEAL, to steal is to learn deeply: to see something valuable, understand why it works, extract the transferable principle, and make it serve your purpose.
 
@@ -282,17 +282,17 @@ The next time you read an article, hear a talk, or study a framework:
 ## Further Resources
 
 ### Getting Started
-- **[The Book: Let's STEAL](/docs/book/)** — Read the full 35-page methodology book
-- **[STEAL in 5 Minutes](./STEAL_IN_5_MINUTES.md)** — Quick start guide
+- **[The Book: Let's STEAL](/docs/book/)**  -  Read the full 35-page methodology book
+- **[STEAL in 5 Minutes](./STEAL_IN_5_MINUTES.md)**  -  Quick start guide
 
 ### Core Concepts
-- **[The STEAL Protocol](./PROTOCOL.md)** — Complete 5-step methodology
-- **[The Grace Principles](./GRACE_PRINCIPLES.md)** — Attribution, Transformation, Sovereignty
-- **[The Intention Arc](./INTENTION_ARC.md)** — The hidden spine: Curiosity to Agency
+- **[The STEAL Protocol](./PROTOCOL.md)**  -  Complete 5-step methodology
+- **[The Grace Principles](./GRACE_PRINCIPLES.md)**  -  Attribution, Transformation, Sovereignty
+- **[The Intention Arc](./INTENTION_ARC.md)**  -  The hidden spine: Curiosity to Agency
 
 ### Templates & Tools
-- **[Exercise Templates](/templates/)** — The one-sentence translation, the abstraction ladder, and more
-- **[steal CLI](./cli/README.md)** — Command-line integration for your workflow
+- **[Exercise Templates](/templates/)**  -  The one-sentence translation, the abstraction ladder, and more
+- **[steal CLI](./cli/README.md)**  -  Command-line integration for your workflow
 
 ---
 

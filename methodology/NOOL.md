@@ -1,4 +1,4 @@
-# நூல் / NOOL — Module: steal-kit/methodology
+# நூல் / NOOL  -  Module: steal-kit/methodology
 
 ## நோக்கம் / Intent
 Specialised sub-layer component for steal-kit.

@@ -1,4 +1,4 @@
-# LOON — steal-kit
+# LOON  -  steal-kit
 
 > *The Mirror: looking back at what the thread promised.*
 
